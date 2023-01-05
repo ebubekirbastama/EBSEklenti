@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Add some styling to the extension popup */
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        background-color: #f1f1f1;
+      }
+      h1 {
+        margin: 0;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #333;
+        text-align: center;
+      }
+      p {
+        margin: 0;
+        padding: 10px;
+        font-size: 14px;
+        color: #666;
+        text-align: center;
+      }
+      input {
+        margin: 10px;
+        padding: 6px;
+        width: 250px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      button {
+        margin: 10px;
+        padding: 6px;
+        width: 250px;
+        font-size: 14px;
+        border: 0;
+        border-radius: 4px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #444;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>EBS Time</h1>
+      <p>Siteye Gitme Eklentisi :)</p>
+      <input id="url-input" type="text" placeholder="Url Gir">
+      <button id="EBS-button">Siteye Git</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
